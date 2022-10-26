@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNESS CENTER </title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
+<style>
+    body {
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url('abs.jpg');
+        x background-size: auto;
+        /* background-image: url('V.jpg'); */
+        /* background-size: 1550px 770px; */
+        background-repeat: no-repeat;
+        font-family: 'Red Hat Display', sans-serif, bold;
+        font-size: 14px;
+        font-color: black;
+    }
+
+    .left {
+        display: inline-block;
+        border: 1px solid white;
+        position: absolute;
+        left: 54px;
+        top: 20px;
+    }
+
+    .mid {
+        color: white;
+        display: block;
+        width: 55%;
+        margin: 20px auto;
+        border: 2px solid white;
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 44px;
+        top: 20px;
+        display: inline-block;
+        border: 2px solid wheat;
+    }
+
+    .navbar {
+        display: inline;
+        color: bisque;
+    }
+
+    .navbar li {
+        display: inline;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 24px 18px;
+        color: white;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: rgb(141, 136, 146);
+
+    }
+
+    .left img {
+
+        padding: 38px 52px;
+        margin: -36px -22px;
+        height: 92px;
+        width: 56px;
+        filter: invert(100%);
+        ;
+    }
+
+    .left div {
+
+        text-align: center;
+        line-height: 20px;
+        font-size: 17px;
+    }
+
+
+    .btn {
+        margin: 3px 9px;
+        padding: 1px 12px;
+        background-color: rgba(163, 174, 179, 0.558);
+        color: aliceblue;
+        border: 2px solid white;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+
+    .btn:hover {
+        background-color: black;
+
+    }
+
+    .container {
+        border: 2px solid wheat;
+        padding: 28px 105px;
+        margin: 3px auto;
+        margin: 117px 156px;
+        width: 280px;
+        border-radius: 10PX;
+    }
+
+    .formgroup input {
+        padding: 10px 13px;
+        margin: 8px 3px;
+        font-size: 15px;
+        text-align: center;
+        display: block;
+        width: 245px;
+        border: 2px solid rgb(168, 160, 176);
+        border-radius: 5px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 84px;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- for logo -->
+        <div class="left">
+            <img src="logo.webp" alt="">
+            <div>FITNESS CENTER </div>
+        </div>
+        <!-- for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class="active"> HOME </a></li>
+                <li> <a href="#"> ABOUT US </a></li>
+                <li> <a href="#"> FITNESS CALCULATOR </a> </li>
+                <li> <a href="#">CONTACT US</a> </li>
+            </ul>
+        </div>
+        <!-- for button -->
+        <div class="right">
+
+            <button class="btn">CALL US </button>
+            <button class="btn"> EMAIL US
+
+            </button>
+
+        </div>
+
+
+    </header>
+    <div class="container">
+        <h1>STAY FIT! JOIN NOW</h1>
+        <Form action="noaction.php">
+            <div class="formgroup"><input type="text " name="" placeholder="ENTER YOUR NAME"></div>
+            <div class="formgroup"><input type="text " name="" placeholder="ENTER YOUR AGE"></div>
+            <div class="formgroup"><input type="text " name="" placeholder="ENTER YOUR GENDER"></div>
+            <div class="formgroup"><input type="text " name="" placeholder="ENTER YOUR LOCALITY"></div>
+            <BUtton class="btn">SUBMIT</BUtton>
+        </Form>
+
+    </div>
+</body>
+
+</html>
